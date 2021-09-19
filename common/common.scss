@@ -548,7 +548,8 @@ hr {
 }
 
 .login-left-side {
-    hidden: true;
+    display: none;
+    visibility: hidden;
 }
 
 .login-right-side {
