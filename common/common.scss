@@ -546,3 +546,28 @@ hr {
 .select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:hover {
     background-color: var(--highlight-medium);
 }
+
+.login-left-side {
+    hidden: true;
+}
+
+.login-right-side {
+    width: 200px;
+    height: 200px;
+    padding-top: 40px;
+}
+
+.discord {
+    visibility: hidden;
+}
+
+.discord:after {
+    content: "Login with Discord";
+    display: block;
+    visibility: visible;
+    position: absolute;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 12px;
+    border-radius: 6px;
+}
